@@ -194,29 +194,29 @@ body {
 /* Вторая страничка - ПОРТФОЛИО */
 
 .portfolio-btn {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.63;
-    text-align: center;
-    color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  color: var(--secondary-text-color);
 }
 
 /* применяем временно */
 .btn-color {
-    color: var(--third-text-color);
-    background-color: var(--accent-color);
+  color: var(--third-text-color);
+  background-color: var(--accent-color);
 }
 
 .portfolio-title {
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-    color: var(--secondary-title-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-title-color);
 }
 
 .portfolio-text {
-    font-size: 16px;
-    line-height: 1.88;
-    color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--primary-text-color);
 }
