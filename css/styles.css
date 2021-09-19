@@ -108,10 +108,38 @@ body {
   line-height: 1.71;
   color: var(--primary-text-color);
 }
+
+/* Классы для секции Чем мы занимаемся */
+
 .work-header {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   color: var(--secondary-title-color);
+}
+
+/* Кдассы для секции Наша команда */
+
+.team-header {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--secondary-title-color);
+}
+
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--secondary-title-color);
+}
+
+.team-member-specialisation {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--primary-text-color);
 }
