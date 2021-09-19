@@ -23,6 +23,8 @@ body {
   list-style: none;
 }
 
+/* Классы для Хедера и Героя */
+
 .header-logo {
   font-family: Raleway;
   font-style: normal;
@@ -89,4 +91,27 @@ body {
   letter-spacing: 0.06em;
   color: var(--third-text-color);
   background: #2196f3;
+}
+
+/* Классы для секции Наши услуги  */
+
+.service-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--secondary-title-color);
+}
+.service-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--primary-text-color);
+}
+.work-header {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--secondary-title-color);
 }
