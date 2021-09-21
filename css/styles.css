@@ -87,6 +87,11 @@ body {
   color: var(--primery-title-color);
 }
 
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188CE8;
+}
+
 .hero-btn {
   font-family:inherit;
   font-weight: bold;
@@ -98,6 +103,7 @@ body {
   letter-spacing: 0.06em;
   color: var(--third-text-color);
   background: #2196f3;
+  border: none;
 }
 
 /* Классы для секции Наши услуги  */
@@ -204,6 +210,11 @@ body {
 
 /* Вторая страничка - ПОРТФОЛИО */
 
+.portfolio-btn:hover,
+.portfolio-btn:focus{
+  color:var(--third-text-color);
+  background-color: var(--accent-color);
+}
 .portfolio-btn {
   font-family: inherit;
   font-weight: 500;
@@ -211,6 +222,8 @@ body {
   line-height: 1.63;
   text-align: center;
   color: var(--secondary-text-color);
+  background-color: F5F4FA;
+  border: none;
 }
 
 /* применяем временно */
